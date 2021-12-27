@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Calculadora Simples.css">
+    <title>Calculadora simples PHP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Readex+Pro:wght@200&display=swap"
+        rel="stylesheet"> <!-- Font h1-->
+
+</head>
+
+<body>
+    <div class="squadro">
+        <h1>CALCULADORA SIMPLES PHP</h1>
+        <form method="GET" action="Calculadora.php">
+            <h2>1º value:</h2>
+            <input class="v1" type="number" placeholder="Valor 1" name="v1" /><br />
+            <h2>2º valor:</h2>
+            <input class="v2" type="numeber" placeholder="Valor 2" name="v2" /><br />
+            <br />
+            <select class="oper" name="operação">
+                <option value="Somar">Somar</option>
+                <option value="Subtrair">Subtrair</option>
+                <option value="Multiplicar">Multiplicar</option>
+                <option value="Dividir">Dividir</option>
+            </select>
+            <br /><br />
+            <input class="button" type="submit" value="Calcular" />
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #242525 0%, #3a393a 100%);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.null {
+    padding: 10px;
+}
+
+.null2 {
+    padding: 15px;
+}
+
+.null3 {
+    padding: 10px;
+}
+
+.menu-h {
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background: linear-gradient(to right, #1163dd 0%, #a04bf0 100%);
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+
+.menu-h li {
+    color: #fff;
+    outline: none;
+    display: inline;
+    padding: 0 px;
+    margin: 10 10px;
+}
+
+.menu-h li a {
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* imagem */
+
+
+.s {
+    display: flex;
+    clip-path: circle();
+}
+
+.Calc {
+    display: flex;
+    border-radius: 5%;
+    position: relative;
+    margin-left: 40px;
+}
+
+/* texto */
+
+.h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.h3 {
+    margin: 30px;
+    text-indent: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.h2 {
+    margin-left: 100px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.icon {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin: 0 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Readex Pro', sans-serif;
+
+}
+
+.icon .fab fa-github {
+    display: inline;
+    justify-content: center;
+    font-family: 'Readex Pro', sans-serif;
+
+
+}
+
+.icon .fab fa-linkedin {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin: 0 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Readex Pro', sans-serif;
+
+}
